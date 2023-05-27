@@ -1,0 +1,19 @@
+:root {
+
+  /* NavBG */
+  --ion-color-navbg: #000;
+  --ion-color-navbg-rgb: 0, 0, 0;
+  --ion-color-navbg-contrast: #ffffff;
+  --ion-color-navbg-contrast-rgb: 255, 255, 255;
+  --ion-color-navbg-shade: #000000;
+  --ion-color-navbg-tint: #1a1a1a;
+}
+
+.ion-color-navbg {
+  --ion-color-base: var(--ion-color-navbg);
+  --ion-color-base-rgb: var(--ion-color-navbg-rgb);
+  --ion-color-contrast: var(--ion-color-navbg-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-navbg-contrast-rgb);
+  --ion-color-shade: var(--ion-color-navbg-shade);
+  --ion-color-tint: var(--ion-color-navbg-tint);
+}

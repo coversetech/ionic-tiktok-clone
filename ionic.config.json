@@ -1,0 +1,7 @@
+{
+  "name": "ionic-tiktok-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

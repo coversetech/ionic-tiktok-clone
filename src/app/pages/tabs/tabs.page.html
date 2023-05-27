@@ -1,0 +1,33 @@
+<ion-tabs (ionTabsDidChange)="setCurrentTab($event)">
+  <ion-tab-bar slot="bottom" color="navbg">
+    <ion-tab-button tab="home">
+      <ion-icon
+        [name]="currentTab === 'home' ? 'home' : 'home-outline'"
+      ></ion-icon>
+      <ion-label>For You</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="friends">
+      <ion-icon
+        [name]="currentTab === 'friends' ? 'people' : 'people-outline'"
+      ></ion-icon>
+      <ion-label>Friends</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="new">
+      <ion-icon src="/assets/icon/new.svg" class="add-new"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="inbox">
+      <ion-icon
+        [name]="currentTab === 'inbox' ? 'chatbox-ellipses' : 'chatbox-ellipses-outline'"
+      ></ion-icon>
+      <ion-label>Inbox</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="profile">
+      <ion-icon
+        [name]="currentTab === 'profile' ? 'person' : 'person-outline'"
+      ></ion-icon>
+      <ion-label>Profile</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

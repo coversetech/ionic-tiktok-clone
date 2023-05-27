@@ -1,0 +1,24 @@
+:host {
+  .media-container {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    margin-top: -50px;
+
+    .media-body {
+      scroll-snap-align: start;
+      position: relative;
+      width: 100%;
+      height: 100%;
+
+      video {
+        /* For the video to take full width and height of the viewport */
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+      }
+    }
+  }
+}

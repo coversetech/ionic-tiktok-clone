@@ -1,0 +1,23 @@
+<div class="media-container">
+  <app-main-nav></app-main-nav>
+  <div
+    class="media-body"
+    *ngFor="let media of feeds; let i = index; trackBy: trackByIdentity"
+  >
+    <app-actions-holder
+      [actions]="media.actions"
+      (onLikeTrigger)="likeHandler($event, i)"
+      (onCommentTrigger)="commentHandler($event, i)"
+      (onBookmarkTrigger)="bookmarkHandler($event, i)"
+    ></app-actions-holder>
+    <app-meta-data
+      [description]="media.description"
+      [soundTrack]="media.soundTrack"
+      [username]="media.username"
+    ></app-meta-data>
+    <!-- muted autoplay loop -->
+    <video [attr.data-index]="i" #video loop muted="true">
+      <source [src]="media.video" type="video/mp4" />
+    </video>
+  </div>
+</div>

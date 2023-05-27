@@ -1,0 +1,60 @@
+{
+  "feeds": [
+    {
+      "id": 0,
+      "video": "/assets/videos/tiktok_2.mp4",
+      "username": "khaby.lame",
+      "soundTrack": "Track One - Khabane Lame",
+      "description": "A nice trick...",
+      "actions": {
+        "likes": 22,
+        "comments": 135,
+        "bookmarks": 40,
+        "bookmarked": false,
+        "liked": false
+      }
+    },
+    {
+      "id": 1,
+      "video": "/assets/videos/tiktok_1.mp4",
+      "username": "khaby.lame",
+      "soundTrack": "Track Two - Khabane Lame",
+      "description": "A nice trick...",
+      "actions": {
+        "likes": 14,
+        "comments": 13,
+        "bookmarks": 500,
+        "bookmarked": false,
+        "liked": false
+      }
+    },
+    {
+      "id": 2,
+      "video": "/assets/videos/tiktok_3.mp4",
+      "username": "khaby.lame",
+      "soundTrack": "Track Three - Khabane Lame",
+      "description": "A nice trick...",
+      "actions": {
+        "likes": 3,
+        "comments": 34,
+        "bookmarks": 10,
+        "bookmarked": false,
+        "liked": false
+      }
+    },
+    {
+      "id": 3,
+      "video": "/assets/videos/tiktok_4.mp4",
+      "username": "khaby.lame",
+      "soundTrack": "Track Four - Khabane Lame",
+      "description": "A nice trick...",
+      "actions": {
+        "likes": 5,
+        "comments": 3,
+        "bookmarks": 5,
+        "bookmarked": false,
+        "liked": false
+      }
+    }
+  ]
+}
